@@ -70,7 +70,7 @@
 }
 
 .header__title {
-  display: flex;
+  margin: 0;
   align-self: center;
   margin-left: 64px;
   width: 730px;
@@ -87,6 +87,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   max-width: 388px;
   bottom: 30px;
@@ -279,12 +280,13 @@
 }
 
 .footer__column {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
-  flex-direction: column;
   flex-basis: 711px;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -297,11 +299,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column_content_info {
-  flex-direction: column;
-  justify-content: start;
 }
 
 .footer__column-heading {
@@ -317,12 +314,6 @@
   margin: 0;
   list-style-type: none;
   margin-bottom: 16px;
-}
-
-.footer__column_content_social {
-  flex-direction: column;
-  justify-content: start;
-  min-width: 100px;
 }
 
 .footer__social-icon {
