@@ -7,4 +7,5 @@
     min-width: 877px;
     min-height: 877px;
     z-index: -1;
+    animation: rotation 20s linear infinite;
   }
