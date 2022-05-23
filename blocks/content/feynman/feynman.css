@@ -1,7 +1,7 @@
 .feynman {
     position: relative;
-    background: #f2f2f2 url(/images/feynman.png) left bottom;
+    background: #f2f2f2 url(/blocks/content/feynman/feynman.png) left bottom;
     background-size: 867px 637px;
     background-repeat: no-repeat;
     min-height: 890px;
-  }
+}
